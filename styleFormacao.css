@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(img/pastel-blue-background-h6lsidoo4qi89enr.jpg);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.site{
+    width: 45rem;
+    height: 45rem;
+    margin-left: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-right: auto;
+    position: relative;
+    z-index: 1;
+}
+
+#retangulo{
+    width: 45rem;
+    height: 50rem;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 20px;
+    background-color: #DDF2FD;
+    opacity: 0.7;
+    position: absolute;
+    z-index: 0;
+}
+
+#voltarButton{
+    width: 2rem;
+    padding-top: 4rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    position: relative;
+    float: left;
+    z-index: 1;
+}
+
+h1{
+    color: #164863;
+    padding-top: 4rem;
+    margin-left: 18rem;
+    margin-right: 5rem;
+    border-bottom: solid;
+    position: relative;
+    z-index: 1;
+}
+
+ul{
+    margin-top: 5rem;
+}
+
+li{
+    margin-left: 10rem;
+    margin-right: 10rem;
+    padding: 1rem;
+    font-size: large;
+    position: relative;
+    z-index: 1;
+}
+
+footer{
+    position: relative;
+    z-index: 1;
+}
