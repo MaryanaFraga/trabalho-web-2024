@@ -6,17 +6,92 @@
 body{
     background-image: url(img/pastel-blue-background-h6lsidoo4qi89enr.jpg);
     font-family: 'Courier New', Courier, monospace;
-    align-items: center;
 }
 
+.site{
+    position: relative;
+    z-index: 1;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 #retangulo{
-    width: 55rem;
-    height: 55rem;
+    width: 45rem;
+    height: 45rem;
     border-radius: 20px;
     background-color: #DDF2FD;
     opacity: 0.7;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto; 
     margin-top: 2rem;
     margin-bottom: 2rem;
+    position: relative;
+    z-index: 0;
+}
+
+#voltarButton{
+    width: 2rem;
+    top: 4rem;
+    left: 2rem;
+    position: absolute;
+    float: left;
+    z-index: 1;
+}
+
+#titulo1{
+    top: 4rem;
+    left: 18rem;
+    font-size: xx-large;
+    color: #164863;
+    position: absolute;
+    z-index: 1;
+}
+
+#titulo2{
+    top: 6rem;
+    left: 21rem;
+    font-size: x-large;
+    color: #164863;
+    position: absolute;
+    z-index: 1;
+}
+
+#nome{
+    top: 14rem;
+    left: 10rem;
+    font-size: large;
+    position: absolute;
+}
+
+#nomeTxt{
+    top: 16rem;
+    left: 10rem;
+    font-size: large;
+    position: absolute;
+}
+
+#mensagem{
+    top: 20rem;
+    left: 10rem;
+    font-size: large;
+    position: absolute;
+}
+
+textarea{
+    top: 22rem;
+    left: 10rem;
+    font-size: large;
+    position: absolute;
+}
+
+#botao{
+    top: 35rem;
+    left: 10rem;
+    padding: 8px;
+    background-color: rgb(129, 193, 240);
+    border-radius: 5px;
+    font-size: large;
+    position: absolute;
 }

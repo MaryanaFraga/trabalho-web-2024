@@ -42,7 +42,8 @@ body{
     z-index: 1;
 }
 
-h1{
+p{
+    font-size: xx-large;
     color: #164863;
     padding-top: 4rem;
     margin-left: 18rem;
